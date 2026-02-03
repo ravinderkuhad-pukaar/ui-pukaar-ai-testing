@@ -10,14 +10,14 @@ import SEO from '../components/Common/SEO';
 const Home = () => {
     const features = [
         {
-            title: "Decoding Your Baby’s Cries",
-            description: "Understand your baby’s emotions through cry analysis.",
+            title: "Decoding Your Baby's Cries",
+            description: "Understand your baby's emotions through cry analysis.",
             items: [
                 { title: "Get AI-generated insights", desc: "with doctor-reviewed explanations" },
                 { title: "Track mood changes", desc: "and share notes with healthcare providers" }
             ],
-            image: "public/images/Screenshot 2026-01-31 at 9.02.18 PM.png",
-            reversed: true // Image First (Left)
+            image: "/images/about-1.png",
+            reversed: true
         },
         {
             title: "Smarter Health Screenings",
@@ -26,8 +26,8 @@ const Home = () => {
                 { title: "Non-invasive", desc: "No uncomfortable tests" },
                 { title: "Doctor Verified", desc: "Content approved by pediatricians" }
             ],
-            image: "public/images/Screenshot 2026-01-31 at 9.02.24 PM.png",
-            reversed: false // Text First (Left)
+            image: "/images/about-2.png",
+            reversed: false
         },
         {
             title: "Learn What Matters to You",
@@ -36,8 +36,8 @@ const Home = () => {
                 { title: "Daily Tips", desc: "Bite-sized advice every day" },
                 { title: "Milestone Tracking", desc: "Monitor growth and development" }
             ],
-            image: "public/images/Screenshot 2026-01-31 at 9.02.33 PM.png",
-            reversed: true // Image First (Left)
+            image: "/images/about-3.png",
+            reversed: true
         }
     ];
 

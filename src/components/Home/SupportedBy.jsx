@@ -2,24 +2,63 @@ import React from 'react';
 
 const SupportedBy = () => {
     const logos = [
-        { name: "AWS", width: "80px" },
-        { name: "Wadhwani Foundation", width: "120px" },
-        { name: "GINSERV", width: "100px" },
-        { name: "DPIIT", width: "90px" },
-        { name: "#startupindia", width: "110px" }
+        { name: "Wadhwani Foundation", src: "/images/Wadhwani-Foundation-Logo.webp" },
+        { name: "GINSERV", src: "/images/ginserv-logo.png" },
+        { name: "DPIIT", src: "/images/DPIIT-header.png" },
+        { name: "AWS", src: "/images/amazon-web-services-aws-logo-png_seeklogo-319188.png" },
     ];
 
+    // Double the logos for seamless infinite scroll
+    const duplicatedLogos = [...logos, ...logos];
+
     return (
-        <section className="py-12 border-b border-gray-100 bg-white">
-            <div className="container mx-auto px-6">
-                <div className="flex flex-wrap justify-center items-center gap-8 md:gap-16 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-                    {logos.map((logo, index) => (
-                        <div key={index} className="bg-gray-200 h-12 flex items-center justify-center rounded text-xs text-gray-400 font-bold" style={{ width: logo.width }}>
-                            {logo.name}
+        <section className="py-8 sm:py-12 border-b border-gray-100 bg-white overflow-hidden">
+            <div className="container mx-auto px-4 sm:px-6">
+                <p className="text-center text-xs sm:text-sm text-gray-500 font-medium mb-6 sm:mb-8">
+                    Supported by
+                </p>
+            </div>
+            
+            {/* Marquee Container */}
+            <div className="relative w-full overflow-hidden">
+                {/* Gradient Overlays for fade effect */}
+                <div className="absolute left-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-r from-white to-transparent z-10"></div>
+                <div className="absolute right-0 top-0 bottom-0 w-16 sm:w-32 bg-gradient-to-l from-white to-transparent z-10"></div>
+                
+                {/* Scrolling Track */}
+                <div className="flex animate-marquee">
+                    {duplicatedLogos.map((logo, index) => (
+                        <div 
+                            key={index} 
+                            className="flex-shrink-0 mx-8 sm:mx-12 md:mx-16 h-12 sm:h-16 flex items-center justify-center"
+                        >
+                            <img 
+                                src={logo.src} 
+                                alt={logo.name} 
+                                className="h-10 sm:h-14 w-auto object-contain"
+                            />
                         </div>
                     ))}
                 </div>
             </div>
+
+            {/* Add keyframes via style tag */}
+            <style>{`
+                @keyframes marquee {
+                    0% {
+                        transform: translateX(0);
+                    }
+                    100% {
+                        transform: translateX(-50%);
+                    }
+                }
+                .animate-marquee {
+                    animation: marquee 20s linear infinite;
+                }
+                .animate-marquee:hover {
+                    animation-play-state: paused;
+                }
+            `}</style>
         </section>
     );
 };
