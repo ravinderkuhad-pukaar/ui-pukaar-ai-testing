@@ -32,6 +32,11 @@ const Header = () => {
             <div className="container mx-auto px-6 md:px-12 flex items-center justify-between">
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-2 cursor-pointer select-none">
+                    <img 
+                        src="/images/logo.png" 
+                        alt="Pukaar AI Logo" 
+                        className="h-10 w-10 rounded-lg object-cover"
+                    />
                     <span className="font-bold text-[22px] text-primary tracking-tight">pukaar.ai</span>
                 </Link>
 
@@ -48,7 +53,9 @@ const Header = () => {
                         </Link>
                     ))}
                     <a
-                        href="#"
+                        href="https://play.google.com/store/apps/details?id=com.prakarann.goonj"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="bg-primary hover:bg-[#683f7d] text-white px-6 py-2.5 rounded-full font-semibold text-[14px] transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
                     >
                         Get App
@@ -86,7 +93,9 @@ const Header = () => {
                                 </Link>
                             ))}
                             <a
-                                href="#"
+                                href="https://play.google.com/store/apps/details?id=com.prakarann.goonj"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="bg-primary text-white text-center py-3 rounded-full font-medium"
                                 onClick={() => setMobileMenuOpen(false)}
                             >

@@ -1,43 +1,62 @@
 import React from 'react';
-import { motion } from 'framer-motion';
-import { ArrowRight, HeartHandshake } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { blogs } from '../data/blogs';
+import SEO from '../components/Common/SEO';
 
 const Blogs = () => {
 
     return (
         <div className="pt-20 min-h-screen bg-white">
+            <SEO
+                title="Blogs"
+                description="Insights, Tips, and Stories for Empowered Parenting. Read our latest blogs on AI baby care and smart parenting."
+                keywords="parenting tips, baby care blog, infant health, parenting advice, baby development"
+                url="/blogs"
+            />
             {/* Hero Section */}
-            <section className="py-20 bg-gradient-to-b from-purple-50 to-white relative overflow-hidden">
-                <div className="container mx-auto px-6 text-center relative z-10">
-                    <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.6 }}
-                        className="max-w-4xl mx-auto flex flex-col items-center"
-                    >
-                        <div className="w-16 h-16 bg-white rounded-2xl shadow-lg flex items-center justify-center mb-6 text-primary">
-                            <HeartHandshake size={32} />
+            <section className="relative overflow-hidden">
+                {/* Purple Gradient Background */}
+                <div className="absolute inset-0 bg-gradient-to-b from-purple-200/60 via-purple-100/40 to-white">
+                    {/* Decorative Elements */}
+                    <div className="absolute top-0 left-0 w-1/3 h-full bg-gradient-to-br from-purple-300/50 to-transparent"></div>
+                    <div className="absolute top-0 right-0 w-1/3 h-full bg-gradient-to-bl from-purple-300/50 to-transparent"></div>
+                    <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-96 h-96 bg-purple-200/30 rounded-full blur-3xl"></div>
+                </div>
+
+                <div className="container mx-auto px-6 py-16 md:py-24 relative z-10">
+                    {/* Centered Card */}
+                    <div className="max-w-2xl mx-auto">
+                        <div className="bg-white/70 backdrop-blur-sm rounded-2xl border border-white/50 shadow-lg p-8 md:p-12 text-center">
+                            {/* Logo Icon */}
+                            <div className="w-20 h-20 bg-primary rounded-2xl flex items-center justify-center mx-auto mb-6 shadow-md overflow-hidden">
+                                <img 
+                                    src="/images/logo.png" 
+                                    alt="Pukaar AI" 
+                                    className="w-full h-full object-cover"
+                                />
+                            </div>
+                            
+                            {/* Title */}
+                            <h1 className="text-3xl md:text-4xl font-bold text-[#292929] mb-3">
+                                Blogs
+                            </h1>
+                            
+                            {/* Subtitle */}
+                            <p className="text-[#666666] text-base md:text-lg">
+                                Insights, Tips, and Stories for Empowered Parenting
+                            </p>
                         </div>
-                        <h1 className="text-4xl md:text-5xl font-bold text-[#292929] mb-4">Blogs</h1>
-                        <p className="text-lg text-[#666666] max-w-2xl mx-auto">
-                            Insights, Tips, and Stories for Empowered Parenting
-                        </p>
-                    </motion.div>
+                    </div>
                 </div>
             </section>
 
             {/* Blog List Section */}
-            <section className="pb-20">
+            <section className="py-16">
                 <div className="container mx-auto px-6 md:px-32">
                     <div className="flex flex-col gap-8">
                         {blogs.map((blog, index) => (
-                            <motion.div
+                            <div
                                 key={index}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ duration: 0.5, delay: index * 0.1 }}
                                 className="bg-[#F9F9F9] rounded-[2rem] p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-10 hover:shadow-lg transition-shadow duration-300 items-center"
                             >
                                 {/* Thumbnail Image */}
@@ -60,7 +79,7 @@ const Blogs = () => {
                                         <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
                                     </a>
                                 </div>
-                            </motion.div>
+                            </div>
                         ))}
                     </div>
                 </div>

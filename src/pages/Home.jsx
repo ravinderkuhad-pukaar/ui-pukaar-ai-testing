@@ -3,7 +3,9 @@ import Hero from '../components/Home/Hero';
 import SupportedBy from '../components/Home/SupportedBy';
 import WhyChoose from '../components/Home/WhyChoose';
 import FeatureSection from '../components/Home/FeatureSection';
+import HowItWorks from '../components/Home/HowItWorks';
 import CTABanner from '../components/Home/CTABanner';
+import SEO from '../components/Common/SEO';
 
 const Home = () => {
     const features = [
@@ -14,7 +16,7 @@ const Home = () => {
                 { title: "Get AI-generated insights", desc: "with doctor-reviewed explanations" },
                 { title: "Track mood changes", desc: "and share notes with healthcare providers" }
             ],
-            image: "https://placehold.co/600x600/f3f4f6/734388?text=Cry+Analyzer+Mockup",
+            image: "public/images/Screenshot 2026-01-31 at 9.02.18 PM.png",
             reversed: true // Image First (Left)
         },
         {
@@ -24,7 +26,7 @@ const Home = () => {
                 { title: "Non-invasive", desc: "No uncomfortable tests" },
                 { title: "Doctor Verified", desc: "Content approved by pediatricians" }
             ],
-            image: "https://placehold.co/600x600/f3f4f6/734388?text=Screening+Tool+Mockup",
+            image: "public/images/Screenshot 2026-01-31 at 9.02.24 PM.png",
             reversed: false // Text First (Left)
         },
         {
@@ -34,13 +36,19 @@ const Home = () => {
                 { title: "Daily Tips", desc: "Bite-sized advice every day" },
                 { title: "Milestone Tracking", desc: "Monitor growth and development" }
             ],
-            image: "https://placehold.co/600x600/f3f4f6/734388?text=Personalized+Feed+Mockup",
+            image: "public/images/Screenshot 2026-01-31 at 9.02.33 PM.png",
             reversed: true // Image First (Left)
         }
     ];
 
     return (
         <main>
+            <SEO 
+                title="AI Baby Cry Translator"
+                description="Pukaar.ai uses AI to decode your baby's cries and help you understand their needs instantly. Smart parenting made simple."
+                keywords="baby cry translator, AI parenting, baby care app, infant cry analysis, smart parenting, baby health"
+                url="/"
+            />
             <Hero />
             <SupportedBy />
             <WhyChoose />
@@ -54,6 +62,7 @@ const Home = () => {
                 ))}
             </div>
 
+            <HowItWorks />
             <CTABanner />
         </main>
     );

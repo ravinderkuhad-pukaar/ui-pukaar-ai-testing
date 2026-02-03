@@ -2,39 +2,61 @@ import React from 'react';
 
 const CTABanner = () => {
     return (
-        <section className="py-24 bg-[#F9F5FB] relative overflow-hidden">
-            <div className="container mx-auto px-6 md:px-12 relative z-10">
-                <div className="bg-primary rounded-3xl p-8 md:p-16 flex flex-col md:flex-row items-center justify-between relative overflow-hidden shadow-2xl">
-                    {/* Background Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-r from-primary to-primary-dark opacity-100"></div>
+        <section className="py-12 sm:py-16 md:py-24 bg-[#F9F5FB] relative">
+            <div className="container mx-auto px-4 sm:px-6 md:px-12">
+                <div className="bg-[#a67bb8] rounded-2xl sm:rounded-[2rem] md:rounded-[2.5rem] relative overflow-hidden">
+                    <div className="flex flex-col md:flex-row items-center">
+                        {/* Content - Left Side */}
+                        <div className="flex-1 p-6 sm:p-8 md:p-12 lg:p-16 z-10 text-center md:text-left">
+                            <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6 sm:mb-8 leading-tight max-w-md mx-auto md:mx-0">
+                                Parenting gets easier when answers are within reach.
+                            </h2>
+                            <div className="flex flex-row gap-2 sm:gap-3 justify-center md:justify-start">
+                                {/* Google Play Badge */}
+                                <a 
+                                    href="https://onelink.to/c63hvu"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-block hover:opacity-90 transition-opacity"
+                                >
+                                    <img 
+                                        src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" 
+                                        alt="Get it on Google Play" 
+                                        className="h-9 sm:h-10 md:h-12"
+                                    />
+                                </a>
+                                {/* App Store Badge */}
+                                <a 
+                                    href="https://onelink.to/c63hvu"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="inline-block hover:opacity-90 transition-opacity"
+                                >
+                                    <img 
+                                        src="https://upload.wikimedia.org/wikipedia/commons/3/3c/Download_on_the_App_Store_Badge.svg" 
+                                        alt="Download on the App Store" 
+                                        className="h-9 sm:h-10 md:h-12"
+                                    />
+                                </a>
+                            </div>
+                        </div>
 
-                    <div className="relative z-10 max-w-xl text-center md:text-left mb-10 md:mb-0">
-                        <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 leading-tight">
-                            Parenting gets easier when answers are within reach.
-                        </h2>
-                        <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
-                            <button className="bg-black text-white px-6 py-3 rounded-lg flex items-center gap-3 hover:opacity-90 transition-opacity">
-                                <div className="text-left">
-                                    <div className="text-[10px] uppercase">Get it on</div>
-                                    <div className="text-lg font-bold leading-none">Google Play</div>
-                                </div>
-                            </button>
-                            <button className="bg-black text-white px-6 py-3 rounded-lg flex items-center gap-3 hover:opacity-90 transition-opacity">
-                                <div className="text-left">
-                                    <div className="text-[10px] uppercase">Download on the</div>
-                                    <div className="text-lg font-bold leading-none">App Store</div>
-                                </div>
-                            </button>
+                        {/* Phone Image - Right Side (Desktop) */}
+                        <div className="hidden md:flex flex-shrink-0 items-end justify-center pr-8 lg:pr-16">
+                            <img
+                                src="/images/img.png"
+                                alt="App Preview"
+                                className="w-[240px] lg:w-[320px] h-auto -mb-8"
+                            />
                         </div>
                     </div>
 
-                    {/* Mobile Mockup overlapping */}
-                    <div className="relative z-10 w-full md:w-auto flex justify-center">
+                    {/* Mobile Phone Image */}
+                    <div className="md:hidden flex justify-center pb-4">
                         <img
-                            src="https://placehold.co/300x500/f3f4f6/734388?text=Mobile+App"
+                            src="/images/img.png"
                             alt="App Preview"
-                            className="rounded-[30px] shadow-2xl transform rotate-6 md:absolute md:-bottom-32 md:-right-10 border-8 border-gray-900"
-                            style={{ maxWidth: '280px' }}
+                            className="w-[160px] sm:w-[200px] h-auto"
                         />
                     </div>
                 </div>
