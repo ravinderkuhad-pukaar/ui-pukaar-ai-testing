@@ -50,7 +50,12 @@ const Footer = () => {
 
                         {/* Right Side Links */}
                         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
-                            <a href="mailto:admin@prakarann.com" className="text-white text-xs sm:text-sm hover:text-white/80 transition-colors">
+                            <a 
+                                href="https://api.whatsapp.com/send?phone=918427698641" 
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="text-white text-xs sm:text-sm hover:text-white/80 transition-colors"
+                            >
                                 Contact us
                             </a>
                             <a 
