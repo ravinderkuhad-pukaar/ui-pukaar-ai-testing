@@ -319,31 +319,6 @@ const AboutUs = () => {
                                 <p className="text-[#666666] text-xs sm:text-sm">Founding Engineer Platform Team, Ex-Razorpay</p>
                             </div>
                         </motion.div>
-
-                        {/* Member 7 - Placeholder */}
-                        <motion.div
-                            initial={{ opacity: 0, y: 30 }}
-                            whileInView={{ opacity: 1, y: 0 }}
-                            viewport={{ once: true }}
-                            transition={{ duration: 0.5, delay: 0.6 }}
-                            className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border border-gray-100 hover:shadow-xl transition-shadow"
-                        >
-                            <div className="flex items-start justify-between mb-3 sm:mb-4">
-                                <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full overflow-hidden border-2 border-purple-100 bg-gray-100 flex items-center justify-center">
-                                    <span className="text-2xl text-gray-400">?</span>
-                                </div>
-                                <a 
-                                    href="#" 
-                                    className="w-7 h-7 sm:w-8 sm:h-8 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-white transition-colors"
-                                >
-                                    <Linkedin size={14} className="sm:w-4 sm:h-4" />
-                                </a>
-                            </div>
-                            <div className="text-left">
-                                <h3 className="text-base sm:text-lg font-bold text-[#292929]">Team Member</h3>
-                                <p className="text-[#666666] text-xs sm:text-sm">Role, Background</p>
-                            </div>
-                        </motion.div>
                     </div>
                 </div>
             </section>
