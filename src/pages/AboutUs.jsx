@@ -181,7 +181,9 @@ const AboutUs = () => {
                             </div>
                             <div className="text-left">
                                 <h3 className="text-base sm:text-lg font-bold text-[#292929]">Karan Birpali</h3>
-                                <p className="text-[#666666] text-xs sm:text-sm">Founder & CEO , IIT Delhi</p>
+                                <p className="text-primary text-xs sm:text-sm font-medium">Founder & CEO</p>
+                                <p className="text-[#666666] text-xs mt-1">IIT Delhi | Ex-Junglee Games, OYO | Antler</p>
+                                <p className="text-[#888888] text-xs sm:text-sm mt-2">"Pro table tennis player who traded paddles for pitch decks. Still undefeated in both."</p>
                             </div>
                         </motion.div>
 
@@ -208,7 +210,9 @@ const AboutUs = () => {
                             </div>
                             <div className="text-left">
                                 <h3 className="text-base sm:text-lg font-bold text-[#292929]">Akash Dangee</h3>
-                                <p className="text-[#666666] text-xs sm:text-sm">Co-Founder & CPO, IIT Roorkee</p>
+                                <p className="text-primary text-xs sm:text-sm font-medium">Co-Founder & CPO</p>
+                                <p className="text-[#666666] text-xs mt-1">IIT Roorkee | Ex-CashFlo, Masters India | Antler</p>
+                                <p className="text-[#888888] text-xs sm:text-sm mt-2">"Built race cars at IIT, now building products that go even faster. Fueled by chai and user feedback."</p>
                             </div>
                         </motion.div>
 
@@ -235,7 +239,9 @@ const AboutUs = () => {
                             </div>
                             <div className="text-left">
                                 <h3 className="text-base sm:text-lg font-bold text-[#292929]">Mishal Raj</h3>
-                                <p className="text-[#666666] text-xs sm:text-sm">CTO, Ex-Grab , Ex-Razorpay</p>
+                                <p className="text-primary text-xs sm:text-sm font-medium">CTO</p>
+                                <p className="text-[#666666] text-xs mt-1">Ex-Grab, Ex-Razorpay</p>
+                                <p className="text-[#888888] text-xs sm:text-sm mt-2">"Scaled payments for millions. Now scaling baby cries to insights. Debugging is his love language."</p>
                             </div>
                         </motion.div>
 
@@ -262,7 +268,9 @@ const AboutUs = () => {
                             </div>
                             <div className="text-left">
                                 <h3 className="text-base sm:text-lg font-bold text-[#292929]">Chaiti Chatterjee</h3>
-                                <p className="text-[#666666] text-xs sm:text-sm">Chief Growth Officer, Ex-Medibuddy, Ernst&Young</p>
+                                <p className="text-primary text-xs sm:text-sm font-medium">Chief Growth Officer</p>
+                                <p className="text-[#666666] text-xs mt-1">BITS Pilani | Ex-MediBuddy, Ernst & Young</p>
+                                <p className="text-[#888888] text-xs sm:text-sm mt-2">"From crunching tax numbers to crushing growth metrics. Can turn any idea into a viral moment."</p>
                             </div>
                         </motion.div>
 
@@ -289,7 +297,9 @@ const AboutUs = () => {
                             </div>
                             <div className="text-left">
                                 <h3 className="text-base sm:text-lg font-bold text-[#292929]">Ravinder Kuhad</h3>
-                                <p className="text-[#666666] text-xs sm:text-sm">Founding Engineer AI, IIT Delhi</p>
+                                <p className="text-primary text-xs sm:text-sm font-medium">Founding Engineer - AI</p>
+                                <p className="text-[#666666] text-xs mt-1">IIT Delhi | AI/ML Specialist</p>
+                                <p className="text-[#888888] text-xs sm:text-sm mt-2">"Teaches machines to understand babies better than most adults. Neural networks are his playground."</p>
                             </div>
                         </motion.div>
 
@@ -316,7 +326,9 @@ const AboutUs = () => {
                             </div>
                             <div className="text-left">
                                 <h3 className="text-base sm:text-lg font-bold text-[#292929]">Ravi Teja Kasula</h3>
-                                <p className="text-[#666666] text-xs sm:text-sm">Founding Engineer Platform Team, Ex-Razorpay</p>
+                                <p className="text-primary text-xs sm:text-sm font-medium">Founding Engineer - Platform</p>
+                                <p className="text-[#666666] text-xs mt-1">Ex-Razorpay | Full Stack & Infra</p>
+                                <p className="text-[#888888] text-xs sm:text-sm mt-2">"Built systems that handle millions of transactions. Now building platform that never sleeps—just like babies."</p>
                             </div>
                         </motion.div>
                     </div>
