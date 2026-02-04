@@ -53,7 +53,7 @@ const Header = () => {
                         </Link>
                     ))}
                     <a
-                        href="https://play.google.com/store/apps/details?id=com.prakarann.goonj"
+                        href="https://onelink.to/c63hvu"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="bg-primary hover:bg-[#683f7d] text-white px-6 py-2.5 rounded-full font-semibold text-[14px] transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5"
@@ -93,7 +93,7 @@ const Header = () => {
                                 </Link>
                             ))}
                             <a
-                                href="https://play.google.com/store/apps/details?id=com.prakarann.goonj"
+                                href="https://onelink.to/c63hvu"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="bg-primary text-white text-center py-3 rounded-full font-medium"
