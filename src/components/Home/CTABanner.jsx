@@ -7,7 +7,7 @@ const CTABanner = () => {
                 <div className="bg-[#a67bb8] rounded-2xl sm:rounded-[2rem] md:rounded-[2.5rem] relative overflow-hidden">
                     <div className="flex flex-col md:flex-row items-center">
                         {/* Content - Left Side */}
-                        <div className="flex-1 p-6 sm:p-8 md:p-12 lg:p-16 z-10 text-center md:text-left">
+                        <div className="w-full md:w-[45%] p-6 sm:p-8 md:p-12 lg:p-16 z-10 text-center md:text-left">
                             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-6 sm:mb-8 leading-tight max-w-md mx-auto md:mx-0">
                                 Parenting gets easier when answers are within reach.
                             </h2>
@@ -42,11 +42,11 @@ const CTABanner = () => {
                         </div>
 
                         {/* Phone Image - Right Side (Desktop) */}
-                        <div className="hidden md:flex flex-shrink-0 items-end justify-center pr-8 lg:pr-16">
+                        <div className="hidden md:flex flex-1 items-end justify-end pr-8 lg:pr-12">
                             <img
                                 src="/images/img.png"
                                 alt="App Preview"
-                                className="w-[240px] lg:w-[320px] h-auto -mb-8"
+                                className="w-[300px] lg:w-[380px] xl:w-[420px] h-auto -mb-8"
                             />
                         </div>
                     </div>
@@ -56,7 +56,7 @@ const CTABanner = () => {
                         <img
                             src="/images/img.png"
                             alt="App Preview"
-                            className="w-[160px] sm:w-[200px] h-auto"
+                            className="w-[180px] sm:w-[220px] h-auto"
                         />
                     </div>
                 </div>
