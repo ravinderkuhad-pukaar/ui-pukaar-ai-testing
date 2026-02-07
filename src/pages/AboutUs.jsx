@@ -268,7 +268,7 @@ const AboutUs = () => {
                             </div>
                             <div className="text-left">
                                 <h3 className="text-base sm:text-lg font-bold text-[#292929]">Chaiti Chatterjee</h3>
-                                <p className="text-primary text-xs sm:text-sm font-medium">Chief Growth Officer</p>
+                                <p className="text-primary text-xs sm:text-sm font-medium">Head of Branding and Community</p>
                                 <p className="text-[#666666] text-xs mt-1">BITS Pilani | Ex-MediBuddy, Ernst & Young</p>
                                 <p className="text-[#888888] text-xs sm:text-sm mt-2">"From crunching tax numbers to crushing growth metrics. Can turn any idea into a viral moment."</p>
                             </div>
