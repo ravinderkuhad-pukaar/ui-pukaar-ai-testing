@@ -2,14 +2,14 @@ export const blogs = [
     {
         id: 1,
         title: "Smart Baby Care App for Calm & Confident Parenting",
-        image: "/images/blog-smart-baby-care.jpg",
+        image: "/images/blog-smart-baby-care.png",
         link: "/blogs/smart-baby-care-app"
     },
     {
         id: 2,
-        title: "Struggling With Breastfeeding? Practical Tips Every New Mother Should Know",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=Breastfeeding+Tips",
-        link: "#"
+        title: "Smart Parenting: Real-Life Guidance for Parents Trying to Do Their Best",
+        image: "/images/blog-smart-parenting.png",
+        link: "/blogs/smart-parenting-guidance"
     },
     {
         id: 3,
