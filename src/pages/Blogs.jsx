@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
 import { blogs } from '../data/blogs';
 import SEO from '../components/Common/SEO';
@@ -74,10 +75,17 @@ const Blogs = () => {
                                         {blog.title}
                                     </h2>
 
-                                    <a href={blog.link} className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all group">
-                                        Read more
-                                        <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                                    </a>
+                                    {blog.link.startsWith('/') ? (
+                                        <Link to={blog.link} className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all group">
+                                            Read more
+                                            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                                        </Link>
+                                    ) : (
+                                        <a href={blog.link} className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all group">
+                                            Read more
+                                            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                                        </a>
+                                    )}
                                 </div>
                             </div>
                         ))}

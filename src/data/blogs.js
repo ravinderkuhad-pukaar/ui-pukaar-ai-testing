@@ -1,9 +1,9 @@
 export const blogs = [
     {
         id: 1,
-        title: "Smart Parenting Real-Life Guidance for Parents Trying to Do Their Best",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=Smart+Parenting",
-        link: "#"
+        title: "Smart Baby Care App for Calm & Confident Parenting",
+        image: "/images/blog-smart-baby-care.jpg",
+        link: "/blogs/smart-baby-care-app"
     },
     {
         id: 2,

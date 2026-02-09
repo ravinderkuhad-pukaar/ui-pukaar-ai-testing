@@ -5,6 +5,7 @@ import Footer from './components/Layout/Footer';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import Blogs from './pages/Blogs';
+import BlogDetail1 from './pages/BlogDetail1';
 import Desktop from './pages/Desktop';
 
 // Scroll to top on route change wrapper
@@ -29,6 +30,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/blogs" element={<Blogs />} />
+          <Route path="/blogs/smart-baby-care-app" element={<BlogDetail1 />} />
           <Route path="/desktop" element={<Desktop />} />
         </Routes>
 
