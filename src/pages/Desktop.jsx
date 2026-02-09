@@ -48,6 +48,7 @@ const Desktop = () => {
                 description="Download Pukaar.ai on Android or iOS. AI-powered baby cry translator to decode your baby's cries and help you understand their needs instantly."
                 keywords="baby cry translator, AI parenting, baby care app, infant cry analysis, smart parenting, baby health, download app"
                 url="/desktop"
+                image="/images/desktop-thumbnail.png"
             />
             <HeroDesktop />
             <SupportedBy />
