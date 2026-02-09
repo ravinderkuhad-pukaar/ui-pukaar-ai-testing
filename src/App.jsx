@@ -11,6 +11,8 @@ import BlogDetail3 from './pages/BlogDetail3';
 import BlogDetail4 from './pages/BlogDetail4';
 import BlogDetail5 from './pages/BlogDetail5';
 import BlogDetail6 from './pages/BlogDetail6';
+import BlogDetail7 from './pages/BlogDetail7';
+import BlogDetail8 from './pages/BlogDetail8';
 import Desktop from './pages/Desktop';
 
 // Scroll to top on route change wrapper
@@ -41,6 +43,8 @@ function App() {
           <Route path="/blogs/newborn-sleep-tips" element={<BlogDetail4 />} />
           <Route path="/blogs/newborn-health-signs" element={<BlogDetail5 />} />
           <Route path="/blogs/baby-feeding-guide" element={<BlogDetail6 />} />
+          <Route path="/blogs/embrace-smart-parenting" element={<BlogDetail7 />} />
+          <Route path="/blogs/beyond-google-parenting-whatsapp" element={<BlogDetail8 />} />
           <Route path="/desktop" element={<Desktop />} />
         </Routes>
 

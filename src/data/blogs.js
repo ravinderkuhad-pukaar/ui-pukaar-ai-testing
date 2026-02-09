@@ -34,5 +34,17 @@ export const blogs = [
         title: "Baby Feeding Guide for New Parents",
         image: "/images/feedingparents.png",
         link: "/blogs/baby-feeding-guide"
+    },
+    {
+        id: 7,
+        title: "How to Embrace Smart Parenting: Small Shifts for Big Impact in Your Daily Routine",
+        image: "/images/embracesmartParenting.png",
+        link: "/blogs/embrace-smart-parenting"
+    },
+    {
+        id: 8,
+        title: "Beyond Google: Why a Real-Time Parenting WhatsApp Group is Your New Best Friend",
+        image: "/images/beyondGoogle.png",
+        link: "/blogs/beyond-google-parenting-whatsapp"
     }
 ];
