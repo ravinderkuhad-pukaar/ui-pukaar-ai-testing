@@ -14,7 +14,7 @@ const CTABanner = () => {
                             <div className="flex flex-row gap-2 sm:gap-3 justify-center md:justify-start">
                                 {/* Google Play Badge */}
                                 <a 
-                                    href="https://onelink.to/c63hvu"
+                                    href="https://play.google.com/store/apps/details?id=com.prakarann.goonj"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-block hover:opacity-90 transition-opacity"
@@ -27,7 +27,7 @@ const CTABanner = () => {
                                 </a>
                                 {/* App Store Badge */}
                                 <a 
-                                    href="https://onelink.to/c63hvu"
+                                    href="https://apps.apple.com/in/app/pukaar-ai/id6755088190"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     className="inline-block hover:opacity-90 transition-opacity"
