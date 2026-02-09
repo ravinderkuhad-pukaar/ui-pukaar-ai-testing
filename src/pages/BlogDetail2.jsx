@@ -6,7 +6,7 @@ const BlogDetail2 = () => {
         <BlogDetailTemplate
             title="Smart Parenting Real-Life Guidance for Parents Trying to Do Their Best"
             date="30 Jan 2026"
-            image="/images/blog-smart-parenting.png"
+            image="/images/parentingparner.png"
             imageAlt="Smart Parenting with Pukaar.ai"
             seoTitle="Smart Parenting Real-Life Guidance for Parents | Pukaar AI"
             seoDescription="Smart parenting isn't about being perfect or always knowing the answer. It's about staying aware, making thoughtful choices, and learning from everyday moments."
