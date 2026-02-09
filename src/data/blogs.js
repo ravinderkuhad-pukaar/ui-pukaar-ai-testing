@@ -20,8 +20,8 @@ export const blogs = [
     {
         id: 4,
         title: "Baby Cry Analyzer App for Parents",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=Cry+Analyzer",
-        link: "#"
+        image: "/images/blog-baby-cry-analyzer.avif",
+        link: "/blogs/baby-cry-analyzer-app"
     },
     {
         id: 5,
