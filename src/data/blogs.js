@@ -1,50 +1,38 @@
 export const blogs = [
     {
         id: 1,
-        title: "Smart Parenting Real-Life Guidance for Parents Trying to Do Their Best",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=Smart+Parenting",
-        link: "#"
+        title: "Smart Baby Care App for Calm, Confident Parenting",
+        image: "/images/blog-smart-baby-care.png",
+        link: "/blogs/smart-baby-care-app"
     },
     {
         id: 2,
-        title: "Struggling With Breastfeeding? Practical Tips Every New Mother Should Know",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=Breastfeeding+Tips",
-        link: "#"
+        title: "Smart Parenting: Real-Life Guidance for Parents Trying to Do Their Best",
+        image: "/images/parentingparner.png",
+        link: "/blogs/smart-parenting-guidance"
     },
     {
         id: 3,
-        title: "AI Baby Care App Made for Parents",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=AI+Care+App",
-        link: "#"
+        title: "Baby Cry Analyzer App for Parents",
+        image: "/images/blog-baby-cry-analyzer.avif",
+        link: "/blogs/baby-cry-analyzer-app"
     },
     {
         id: 4,
-        title: "Baby Cry Analyzer App for Parents",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=Cry+Analyzer",
-        link: "#"
+        title: "Why Is My Baby Not Sleeping? Real Newborn Sleep Tips Parents Trust",
+        image: "/images/sleepijngblog.png",
+        link: "/blogs/newborn-sleep-tips"
     },
     {
         id: 5,
-        title: "Smart Baby Care App to Support Modern Parenting",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=Modern+Parenting",
-        link: "#"
+        title: "Your Newborn Can't Tell You This—These Health Signs Matter",
+        image: "/images/sleepimage.png",
+        link: "/blogs/newborn-health-signs"
     },
     {
         id: 6,
-        title: "Why Is My Baby Not Sleeping? Real Newborn Sleep Tips Parents Trust",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=Sleep+Tips",
-        link: "#"
-    },
-    {
-        id: 7,
-        title: "Worried About Your Baby’s Health? Signs and Symptoms Parents Should Not Ignore",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=Health+Signs",
-        link: "#"
-    },
-    {
-        id: 8,
-        title: "Your Baby’s Behavior Is Telling You Something—Here’s What It Means",
-        image: "https://placehold.co/600x400/f3f4f6/734388?text=Baby+Behavior",
-        link: "#"
+        title: "Baby Feeding Guide for New Parents",
+        image: "/images/feedingparents.png",
+        link: "/blogs/baby-feeding-guide"
     }
 ];

@@ -71,7 +71,7 @@ const HeroDesktop = () => {
                     {/* Two Download Buttons */}
                     <div className="mb-10 sm:mb-16 flex flex-col sm:flex-row gap-4 sm:gap-6">
                         <a 
-                            href="https://play.google.com/store/apps/details?id=com.pukaar.app" 
+                            href="https://play.google.com/store/apps/details?id=com.prakarann.goonj" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="inline-block bg-primary hover:bg-primary-dark text-white px-6 sm:px-8 py-3 sm:py-3.5 rounded-full font-medium text-sm sm:text-base shadow-lg hover:-translate-y-0.5 transition-all duration-300"
@@ -79,7 +79,7 @@ const HeroDesktop = () => {
                             Try on Android
                         </a>
                         <a 
-                            href="https://apps.apple.com/app/pukaar-ai/id6670170498" 
+                            href="https://apps.apple.com/in/app/pukaar-ai/id6755088190" 
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="inline-block bg-primary hover:bg-primary-dark text-white px-6 sm:px-8 py-3 sm:py-3.5 rounded-full font-medium text-sm sm:text-base shadow-lg hover:-translate-y-0.5 transition-all duration-300"
