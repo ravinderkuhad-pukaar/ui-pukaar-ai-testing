@@ -1,10 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import { blogs } from '../data/blogs';
+import { getAllBlogs } from '../utils/blogs';
 import SEO from '../components/Common/SEO';
 
 const Blogs = () => {
+    const blogs = getAllBlogs();
 
     return (
         <div className="pt-20 min-h-screen bg-white">
@@ -55,9 +56,9 @@ const Blogs = () => {
             <section className="py-16">
                 <div className="container mx-auto px-6 md:px-32">
                     <div className="flex flex-col gap-8">
-                        {blogs.map((blog, index) => (
+                        {blogs.map((blog) => (
                             <div
-                                key={index}
+                                key={blog.slug}
                                 className="bg-[#F9F9F9] rounded-[2rem] p-6 md:p-8 flex flex-col md:flex-row gap-6 md:gap-10 hover:shadow-lg transition-shadow duration-300 items-center"
                             >
                                 {/* Thumbnail Image */}
@@ -75,17 +76,10 @@ const Blogs = () => {
                                         {blog.title}
                                     </h2>
 
-                                    {blog.link.startsWith('/') ? (
-                                        <Link to={blog.link} className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all group">
-                                            Read more
-                                            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                                        </Link>
-                                    ) : (
-                                        <a href={blog.link} className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all group">
-                                            Read more
-                                            <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
-                                        </a>
-                                    )}
+                                    <Link to={`/blogs/${blog.slug}`} className="inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all group">
+                                        Read more
+                                        <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
+                                    </Link>
                                 </div>
                             </div>
                         ))}
