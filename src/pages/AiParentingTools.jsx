@@ -235,7 +235,7 @@
     </section>
 
     <footer class="py-8 bg-gray-50 text-center text-gray-600 text-sm">
-        <p>© 2024 Pukaar.ai - AI Parenting Tools</p>
+        <p>© 2026 Pukaar.ai - AI Parenting Tools</p>
     </footer>
 </body>
 </html>
