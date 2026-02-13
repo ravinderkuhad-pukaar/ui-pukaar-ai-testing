@@ -59,8 +59,7 @@
         <div class="container mx-auto px-6">
             <div class="max-w-5xl mx-auto rounded-2xl overflow-hidden shadow-lg bg-purple-100">
                 <img
-                    src="parents-with-baby.jpg"
-                    alt="Parents caring for their baby with Pukaar.ai support"
+                    <img src="/image_86.jpg" alt="Parents caring..." />
                     class="w-full h-auto object-cover"
                 />
             </div>
