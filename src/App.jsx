@@ -25,6 +25,7 @@ import BlogDetail7 from './pages/BlogDetail7';
 import BlogDetail8 from './pages/BlogDetail8';
 import BlogDetail11 from './pages/BlogDetail11';
 import Desktop from './pages/Desktop';
+import Testing from './pages/Testing-links';
 
 // Scroll to top on route change wrapper
 const ScrollToTop = () => {
@@ -68,6 +69,8 @@ function App() {
           <Route path="/baby-sleep-tips" element={<BabySleepTips />} />
           <Route path="/baby-health-symptoms" element={<BabyHealthSymptoms />} />
           <Route path="/newborn-problems-solutions" element={<NewbornProblemsSolutions />} />
+         <Route path="/testing-links" element={<Testing />} />
+
         </Routes>
 
         <Footer />
