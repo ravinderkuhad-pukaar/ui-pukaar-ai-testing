@@ -278,9 +278,9 @@ const BabyHealthSymptoms = () => {
                         <p className="text-[#666666] text-lg mb-8">
                             Download Pukaar.ai for doctor-reviewed health symptom guidance that helps you make informed decisions with confidence.
                         </p>
-                        <button className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-md hover:shadow-lg">
+                        <a href="https://onelink.to/c63hvu" target="_blank" rel="noopener noreferrer" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-md hover:shadow-lg">
                             Download Pukaar.ai App
-                        </button>
+                        </a>
                     </div>
                 </div>
             </section>

@@ -277,9 +277,9 @@ const BabyCryAnalyzerApp = () => {
                         <p className="text-[#666666] text-lg mb-8">
                             Download the Pukaar.ai baby cry analyzer app and join thousands of parents making baby care easier and more informed.
                         </p>
-                        <button className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-md hover:shadow-lg">
+                        <a href="https://onelink.to/c63hvu" target="_blank" rel="noopener noreferrer" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-md hover:shadow-lg">
                             Download Pukaar.ai App
-                        </button>
+                        </a>
                     </div>
                 </div>
             </section>

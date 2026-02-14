@@ -277,9 +277,9 @@ const BabyCryAnalysis = () => {
                         <p className="text-[#666666] text-lg mb-8">
                             Try Pukaar.ai&apos;s baby cry analysis and gain the confidence to respond to your baby with clarity and calm.
                         </p>
-                        <button className="bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-md hover:shadow-lg">
+                        <a href="https://onelink.to/c63hvu" target="_blank" rel="noopener noreferrer" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors shadow-md hover:shadow-lg">
                             Download Pukaar.ai App
-                        </button>
+                        </a>
                     </div>
                 </div>
             </section>
